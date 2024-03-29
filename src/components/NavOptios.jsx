@@ -13,7 +13,8 @@ const NavOptions = ({ miPhones, redmiPhones, tv, laptop, fitnessAndLifeStyle, ho
   }, [location.pathname]); // Re-run effect whenever pathname changes
 
   return (
-    <div className="navOptions">
+    <div className="navOptions">git remote set-url origin https://github.com/Pushkar012345/MI_ClONE.git
+
       {activeLink === '/miPhones' &&
         miPhones.map(item => <NavCard name={item.name} price={item.price} image={item.image} key={item.image} />)}
 
